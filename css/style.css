@@ -1,0 +1,83 @@
+/* Base resets & typography */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header & Nav */
+  .header {
+    background: #006400;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .navbar {
+    background: #228B22;
+    padding: 10px;
+    text-align: center;
+  }
+  .navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Layout containers */
+  .container {
+    display: flex;
+  }
+  .sidebar-left {
+    background: #F0FFF0;
+    padding: 15px;
+    width: 20%;
+  }
+  .content {
+    background: #FFFFFF;
+    padding: 15px;
+    width: 60%;
+  }
+  .sidebar-right {
+    background: #F5FFFA;
+    padding: 15px;
+    width: 20%;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #2E8B57;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Images & Tables */
+  .content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  th {
+    background: #228B22;
+    color: white;
+  }
+  
+  /* Forms */
+  form input,
+  form textarea,
+  form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+  }
